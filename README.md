@@ -14,9 +14,11 @@ Here is the summary of our Linear Regression:
 
 ## Summary Statistics on Suspension Coil
 Total Summary
+
 ![Total Summary](Photos/total_summary.png)
 
 Lot Summary
+
 ![Lot Summary](Photos/lot_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -25,18 +27,22 @@ Looking at our tables we can see that overall, the variance is 62.29 which is un
 
 ## T-Tests on Suspension Coils
 **All Lots**
+
 ![TTest All](Photos/ttestall.png)
 Based on the above information we can see the test barely passes with a score -1.8931 which is under our 1.975 requirement. Which means that it is possible that the true mean is 1500
 
 **Lot 1** 
+
 ![TTest Lot 1](Photos/ttestlot1.png)
 Based on the above information we can see the test clearly passes with a score of 0. Which means that it is possible that the true mean is 1500.
 
 **Lot 2** 
+
 ![TTest Lot 2](Photos/ttestlot2.png)
 Based on the above information we can see the test clearly passes with a score of .51. Which means that it is possible that the true mean is 1500.
 
 **Lot 3** 
+
 ![TTest Lot 3](Photos/ttestlot3.png)
 Based on the above information we can see the test fails with a score of -2.0918 which us over the 1.975 limit. Which means that it is not possible that the true mean is 1500.
 
