@@ -2,6 +2,7 @@
 
 ## Linear Regression to Predict MPG
 Here is the summary of our Linear Regression:
+
 ![MPG Linear](Photos/mpglinear.png)
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
