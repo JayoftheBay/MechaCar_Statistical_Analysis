@@ -3,11 +3,12 @@
 ## Linear Regression to Predict MPG
 Here is the summary of our Linear Regression:
 ![MPG Linear](Photos/mpglinear.png)
-*Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   * The two variables excluding the intercept that are statistically significant are vehicle_length and ground_clearance.
-*Is the slope of the linear model considered to be zero? Why or why not?
+* Is the slope of the linear model considered to be zero? Why or why not?
   * Based on our p-value, we know that the linear model should not be considered 0. 
-*Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   * Although this linear model is statistically significant, having 2/5 variables outside of the intercept being significant doesn't indicate an effective model. We should look to see if we can find any other significant variables, such as engine cylinders.
 
 ## Summary Statistics on Suspension Coil
